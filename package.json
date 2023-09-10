@@ -1,0 +1,29 @@
+{
+  "name": "zenitria-amoled",
+  "displayName": "Zenitria AMOLED",
+  "icon": "logo.png",
+  "description": "Best AMOLED theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenitria/zenitria-amoled-vsc.git"
+  },
+  "author": {
+    "name": "Zenitria"
+  },
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenitria AMOLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenitria-amoled-color-theme.json"
+      }
+    ]
+  }
+}
