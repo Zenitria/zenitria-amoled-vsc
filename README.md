@@ -8,6 +8,7 @@ Best AMOLED theme for Visual Studio Code.
     <img src="https://raw.githubusercontent.com/Zenitria/zenitria-amoled-vsc/master/screenshots/1.png" width="600"/>
     <img src="https://raw.githubusercontent.com/Zenitria/zenitria-amoled-vsc/master/screenshots/2.png" width="600"/>
     <img src="https://raw.githubusercontent.com/Zenitria/zenitria-amoled-vsc/master/screenshots/3.png" width="600"/>
+    <img src="https://raw.githubusercontent.com/Zenitria/zenitria-amoled-vsc/master/screenshots/4.png" width="600"/>
 </p>
 
 ## Build and install
@@ -27,7 +28,7 @@ vsce package
 3. Install theme
 
 ```bash
-code --install-extension zenitria-amoled-1.0.0.vsix
+code --install-extension zenitria-amoled-x.x.x.vsix
 ```
 
 ## Recommended settings
@@ -36,10 +37,10 @@ This is my recommended settings. Open your `settings.json` by clicking `CTRL + S
 
 ```json
 "editor.fontFamily": "'JetBrains Mono', monospace",
-"editor.fontSize":  12,
-"editor.fontWeight":  "300",
-"editor.lineHeight":  20,
-"editor.letterSpacing":  0.5,
-"editor.fontLigatures":  true,
-"editor.cursorBlinking":  "smooth",
+"editor.fontSize": 12,
+"editor.fontWeight": "300",
+"editor.lineHeight": 20,
+"editor.letterSpacing": 0.5,
+"editor.fontLigatures": true,
+"editor.cursorBlinking": "smooth",
 ```
